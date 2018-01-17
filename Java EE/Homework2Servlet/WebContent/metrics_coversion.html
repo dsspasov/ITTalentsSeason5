@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="ConvertServlet" method="get">
+		From:<select name="fromMetric">
+			<option value="meter">meter</option>
+			<option value="centimeter">centimeter</option>
+			<option value="kilometer">kilometer</option>
+			<option value="foot">foot</option>
+			<option value="inch">inch</option>
+			<option value="yard">yard</option>
+			<option value="mile">mile</option>
+		</select><br/>
+		
+		To:<select name="toMetric">
+			<option value="meter">meter</option>
+			<option value="centimeter">centimeter</option>
+			<option value="kilometer">kilometer</option>
+			<option value="foot">foot</option>
+			<option value="inch">inch</option>
+			<option value="yard">yard</option>
+			<option value="mile">mile</option>
+		</select><br/>
+		
+		<input type="text" name="distance"/>
+		<input type="submit" value="calculate"/>
+	</form>
+
+</body>
+</html>
